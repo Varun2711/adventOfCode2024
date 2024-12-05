@@ -7,7 +7,7 @@
 left = []
 right = []
 
-with open('input.txt', 'r') as f:
+with open('../inputs/day1input.txt', 'r') as f:
     for line in f.readlines():
         l, r = line.split()
 
